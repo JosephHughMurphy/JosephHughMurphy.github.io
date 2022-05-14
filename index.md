@@ -1,5 +1,15 @@
-## Welcome to GitHub Pages
+## Joseph Hugh Murphy
 
+Hey there, 
+
+Thanks for taking the time to loook at my webpage.
+
+This is a site based on my interests and general curiosities. 
+
+# About me
+I'm a doctoral researcher looking to improve how the 
+
+I'm a doctoral researcher 
 You can use the [editor on GitHub](https://github.com/JosephHughMurphy/JosephHughMurphy.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
