@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Joseph Hugh Murphy - About me - data - systems - construction</title>
+    <link rel="icon" href="logos\Social\networktato.png">
+    <meta name="author" content="Joseph Murphy - About me">
+    <meta name="description"
+        content="This is a small website of mine showing the work I've done as part of my career.It's my virtual CV - this section is a small description of myself and my experiences">
+    <meta name="keywords"
+        content="Construction,civilengineering,data,BIM,linkeddata,MBSE,Systemengineering,civilengineering,Datavisualisation,Datascience,UK, Nottingham">
+
+    <!-- ====================== bootstrap full with CSS ============================= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ====================== Custom Stylesheet =================================== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="timeline.js">
+
+    <!-- Font Awesome for logos -->
+    <script src="https://kit.fontawesome.com/c5e643d3e2.js" crossorigin="anonymous"></script>
+    <!-- ====================== End of styling and links ============================ -->
+</head>
+
+
+
+<body id="pagetop">
+    <!-- ====================== Initial navbar ============================== -->
+    <!-- https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp impliment this  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-trans navbar-shrink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#pagetop"><img src="logos\Social\networktato.svg" alt="Joseph Hugh Murphy"
+                    width="auto" height="50">
+                Joseph Hugh Murphy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="#about me">About me</a>
+                    <a class="nav-link" href="#professional-timeline">Projects</a>
+                    <a class="nav-link" href="#contact-details">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====================== Section 1 - Header and intro ========================= -->
+    <section id="header-about">
+        <div class="row">
+            <canvas id="canvas2">
+                <img id="image1"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTE1LjYxIDEwOS43NDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMC4xNjQzNDgsIDAsIDAsIDAuMTgwMDg0LCAyNy43MjU5NDEsIC0yOS4wNzI5NSkiIHN0eWxlPSIiPgogICAgPGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxODkuNDQ1IiBjeT0iMTkxLjQ0MSIgcj0iMi40NiIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDI5LCAyOSwgMjcpOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxMjkuNDY1IiB5MT0iMjM4Ljg4MSIgeDI9IjE0OC43MzUiIHkyPSIyMzIuMjExIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE1Mi44NzUiIHkxPSIyMzQuMDAxIiB4Mj0iMTYyLjEyNSIgeTI9IjI0MC4xMDEiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogICAgPGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTYyLjg4NSIgeTE9IjIyOC45MDEiIHgyPSIxNjQuNTg1IiB5Mj0iMjM3LjY0MSIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDI5LCAyOSwgMjcpOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxNjQuNjU1IiB5MT0iMjI1LjQ2MSIgeDI9IjE5My4wOTUiIHkyPSIyMTcuNjIxIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE5My45NzUiIHkxPSIyMTQuNTYxIiB4Mj0iMTc3Ljg2NSIgeTI9IjE5OS4xNzEiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogICAgPGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTc0LjkxNSIgeTE9IjE5OS4yNzEiIHgyPSIxNjMuMDg1IiB5Mj0iMjIzLjk3MSIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDI5LCAyOSwgMjcpOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxNzguNDE1IiB5MT0iMTk1Ljk1MSIgeDI9IjE4Ni45ODUiIHkyPSIxOTIuMTgxIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE4OS40NDUiIHkxPSIxODguOTgxIiB4Mj0iMTg3LjYwNSIgeTI9IjE3MC45ODEiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogICAgPGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTk4LjI5NSIgeTE9IjIxNi45NjEiIHgyPSIyMDguNzk1IiB5Mj0iMjE4LjkxMSIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDI5LCAyOSwgMjcpOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxNjUuNTQ1IiB5MT0iMjQyLjM3MSIgeDI9IjE2OC40MjUiIHkyPSIyNTQuMjYxIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE1My4zMDUiIHkxPSIyMzAuOTQxIiB4Mj0iMTU5LjkzNSIgeTI9IjIyNi40MzEiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNIDE4Ny4wMTUgMTcwLjQ2MSBDIDE5NS44OTUgMTcxLjE3MSAyMDEuNTY1IDE3Ny4xMDEgMjAzLjE4NSAxNzguODExIEMgMjEwLjQzNSAxODYuNDAxIDIxMS4yMDUgMTk1LjczMSAyMTEuNTM1IDE5OS42ODEgQyAyMTIuNjE1IDIxMi43NDEgMjA2LjkzNSAyMjIuNTUxIDIwMy43MDUgMjI4LjExMSBDIDIwMC45ODUgMjMyLjgwMSAxOTUuNDQ1IDI0Mi4xMDEgMTg0LjAwNSAyNDguNzIxIEMgMTc5Ljc0NSAyNTEuMTgxIDE2OC4zMzUgMjU3LjU3MSAxNTMuODc1IDI1NS4xMTEgQyAxNDkuODM1IDI1NC40MjEgMTM5LjkxNSAyNTIuNzQxIDEzMi44NzUgMjQ0LjE1MSBDIDEzMi4zMDUgMjQzLjQ2MSAxMjMuNjA1IDIzMi41NjEgMTI2Ljc0NSAyMjEuODUxIEMgMTI3LjQxNSAyMTkuNTgxIDEyOC41MDUgMjE3LjY2MSAxMjkuMDk1IDIxNi42MzEgQyAxMzIuNDE1IDIxMC44MjEgMTM2Ljc4NSAyMDcuNjgxIDEzOC43NDUgMjA2LjIwMSBDIDE0Ni40OTUgMjAwLjM0MSAxNTIuMzU1IDE5Mi4zMzEgMTU5LjIyNSAxODUuNDYxIEMgMTY1LjgyNSAxNzguODYxIDE2OS4yMTUgMTc1LjUyMSAxNzMuNTc1IDE3My40NjEgQyAxNzYuNTA1IDE3Mi4wNzEgMTgxLjA2NSAxNjkuOTgxIDE4Ny4wMDUgMTcwLjQ2MSBMIDE4Ny4wMTUgMTcwLjQ2MSBaIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsgc3Ryb2tlLXdpZHRoOiAycHg7Ii8+CiAgICA8Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjE3Ni4yNzUiIGN5PSIxOTcuMzAxIiByPSIyLjQ2IiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMTk1LjU1NSIgY3k9IjIxNi40NDEiIHI9IjIuNDYiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogICAgPGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxNTEuMTk1IiBjeT0iMjMyLjIxMSIgcj0iMi40NiIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDI5LCAyOSwgMjcpOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7Ii8+CiAgICA8Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjE2NC41ODUiIGN5PSIyNDAuMTAxIiByPSIyLjQ2IiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiByZ2IoMjksIDI5LCAyNyk7IHN0cm9rZS1taXRlcmxpbWl0OiAxMDsiLz4KICAgIDxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMTYyLjQwNSIgY3k9IjIyNi40MzEiIHI9IjIuNDYiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6IHJnYigyOSwgMjksIDI3KTsgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyIvPgogIDwvZz4KPC9zdmc+">
+            </canvas>
+        </div>
+        <div class="container">
+            <div class="title-about_me">
+                <section id="about me">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="col-xl-8">
+                                <div class="amct">
+                                    <h2>About me</h2>
+                                    <p>Hi!</p>
+                                    <p>I'm Joseph Murphy, once a civil engineer I now dabble in computer science, systems engineering and other intersecting disciplines. I'm working towards improving infrastructure delivery to be smarter, linked, and traceable as part of
+                                        completing my engineering doctorate. I love findings ways to visualise data in more meaningful ways that drive insight and better decision making.</p>
+                                    <p> I'm passionate about the products and services that engineering provides for society and how it improves people’s lives every day, but believe we can do better! My professional timeline can be seen <a href="#professional-timeline">below</a>.</p>
+                                    <p>
+                                        Outside of my doctorate and work my passions are around: live music, ice hockey,
+                                        climbing (boulder and lead). </p>
+                                </div>
+                                <!-- add about me page to this -->
+
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                                <div class="cimage-large">
+                                    <img src="Images\Profile_pic\Joseph_Murphy_profile_pic_2.jpg"
+                                        class="rounded-circle cimage-img" height="250" width="250"
+                                        alt="Graph theory for BIM databases">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== Section 2 - About me =========================== -->
+
+    <!-- ========================== Professional timeline ====================== -->
+    <section id="professional-timeline">
+        <link rel="stylesheet" href="timeline.css">
+        <div class="tl_container">
+            <section id="timeline">
+                <div class="row">
+
+                    <div class="flex-parent">
+                        <div class="input-flex-container">
+                            <input type="radio" name="timeline-dot" data-description="2013">
+                            <div class="dot-info" data-description="2013">
+                                <span class="year">2012-3</span>
+                                <span class="label">Industrial Placement <b><i>NCMN</i></b></span>
+                            </div>
+                            <input type="radio" name="timeline-dot" data-description="2014">
+                            <div class="dot-info" data-description="2014">
+                                <span class="year">2014</span>
+                                <span class="label">BSc Civil Engineering <b><i>NTU</i></b></span>
+                            </div>
+                            <input type="radio" name="timeline-dot" data-description="2014a" checked>
+                            <div class="dot-info" data-description="2014a">
+                                <span class="year">2014</span>
+                                <span class="label">Graduate Engineer <b><i>NMCN</i></b></span>
+                            </div>
+                            <input type="radio" name="timeline-dot" data-description="2016">
+                            <div class="dot-info" data-description="2016">
+                                <span class="year">2016</span>
+                                <span class="label">Project Engineer <b><i>NMCN</i></b></span>
+                            </div>
+                            <input type="radio" name="timeline-dot" data-description="2018">
+                            <div class="dot-info" data-description="2018">
+                                <span class="year">2018</span>
+                                <span class="label">Engineering Doctorate <b><i>HS2/Lboro</i></b></span>
+                            </div>
+                            <input type="radio" name="timeline-dot" data-description="2023">
+                            <div class="dot-info" data-description="2023">
+                                <span class="year">2023</span>
+                                <span class="label">Engineering Doctorate completed!</span>
+                            </div>
+                            <div id="timeline-descriptions-wrapper">
+                                <!-- My first taste of industry -->
+                                <p data-description="2013"> Voluntary 1 year placement within industry. Understanding of
+                                    engineering implimentation</p>
+                                <p data-description="2013"> <b>Key roles: </b> Site engineering </p>
+                                <p data-description="2013"> <b>Key skills: </b> Design interpretation, setting out,
+                                    Health and safety management </p>
+                                <p data-description="2013"> <b>Key projects: </b> Crankley Point STW upgrade & Branston
+                                    STW </p>
+                                <!-- Completed Uni - Yay! -->
+                                <p data-description="2014">BSc Completed with 1st class honors</p>
+                                <p data-description="2014"><b>Dissertation topic: </b> ‘Recycled steel tyre fibres and
+                                    industrial steel fibres in self-compacting concrete and the effects on its
+                                    fundamental properties.’</p>
+                                <p data-description="2014"> <b>Dissertation findings: </b>reduction in embedded carbon
+                                    of material and reuse of existing waste material. Seen in further study of the
+                                    fibres.</p>
+                                <p data-description="2014"><b>Modules: </b> Structural Engineering, Ground Engineering
+                                    and Water Resources, Management and Transportation, Professional responsibilities,
+                                    and Group Projects.</p>
+                                <!-- Back to the delivery! -->
+                                <p data-description="2014a"><b>Design office in design and build contractor (NMCN)</b>
+                                </p>
+                                <p data-description="2014a"><b>Role type: </b>Assisting other engineers</p>
+                                <p data-description="2014a"><b>Portfolio: </b>~£3.2million (mainly assisting)</p>
+                                <p data-description="2014a"><b>Notable projects: </b>Assisting on the Newark Strategy
+                                    worth £62 million</p>
+                                <p data-description="2014a"><b>Technology used: </b>Autocad and Civil 3D</p>
+                                <!-- I'm getting good at this but.... -->
+                                <p data-description="2016"> <b>Project engineer roles: </b> Design (civil elements),
+                                    programme management, co-ordination, stakeholder management, Health, safety and
+                                    environmental risk management, mentoring, and process improvement </p>
+                                <p data-description="2016"> <b>Portfolio: </b>£4.4m of projects design and 2.8 m
+                                    completed and placed into operation </p>
+                                <p data-description="2016"><b>Notable projects: </b>Fenny Bentley and Kirk Hallam.</p>
+                                <p data-description="2016"><b>Technology used: </b>Autocad and Civil 3D</p>
+                                <!-- Time for a change and to improve things for the better -->
+                                <p data-description="2018"><b>EngD: The Application of Model Based System Engineering
+                                        Requirements for a BIM centric Virtual Railway</b></p>
+                                <!-- <p data-description="2018">Investigated the opportunities and potential route to deploy MBSE with BIM centric digital models.</p> -->
+                                <p data-description="2018"><b>Main features of the research included: </b>Providing a
+                                    novel surgical method for MBSE deployment, a data framework for the MBSE and BIM
+                                    data exchange, and proof of MBSE requirements and BIM data integration for data
+                                    validation.</p>
+                                <p data-description="2018"><b>Skills developed: </b>MBSE modelling, BIM processes, BIM
+                                    data management, Python, CSS, html, project management, Design thinking, and
+                                    workshop management.</p>
+                                <p data-description="2018"><b>Technology used: </b>MBSE (magicdraw, EASparx, IBM-Doors),
+                                    BIM (bentley, gis), python, CSS, html, SQL, noSQL, and graphDB</p>
+                                <p data-description="2018"><b>Additional notes:</b> Multiple innovation workshops, 3
+                                    summer schools and associated hackathons, promotion of collaboration between the
+                                    university and industry, and data visualisation</p>
+
+                                <p data-description="2023"><b>Where the fun begins: </b>Looking forward to shaping the
+                                    engineering landscape to deliver better products</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ====================== Section X - Contact me ============= ================= -->
+    <section id="contact-details">
+        <div class="container">
+            <footer>
+                <h2>Get in touch!</h2>
+                <p>Drop me a message on any of the below if you have any questions. Click the symbols below to reach me!
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <inline>
+                            <a href="https://www.linkedin.com/in/joseph-h-murphy/" class="fa fa-linkedin" alt="Linkedin"
+                                data-toggle="tooltip" data-placement="bottom" title="Linkedin"></a>
+                            <a href="https://github.com/JosephHughMurphy" class="fa fa-github" alt="Github"
+                                data-toggle="tooltip" data-placement="bottom" title="Github"></a>
+                            <a href="https://www.researchgate.net/profile/Joseph-Murphy-28"
+                                class="fa-brands fa-researchgate" alt="researchgate" data-toggle="tooltip"
+                                data-placement="bottom" title="Researchgate"></a>
+                            <a href="mailto:j.h.murphy@lboro.ac.uk" class="fa fa-envelope" alt="Email"
+                                data-toggle="tooltip" data-placement="bottom" title="email"></a>
+                            <a href="https://www.lboro.ac.uk/research/cice/current-research-engineers/joseph-murphy.html"
+                                color="fill:#2895e9" alt="Lboro-email" data-toggle="tooltip" data-placement="bottom"
+                                title="Email">
+                                <img class="lboro_icon" src="\logos\lboro-logo.svg" height="120px"
+                                    alt="Loughborogh website" data-toggle="tooltip" data-placement="bottom"
+                                    title="Loughborogh website">
+                            </a>
+                        </inline>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <h5>© Joseph Murphy 2018</h5>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- bootstrap elements  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="scrolling.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- <script src="Animation-script.js"></script> -->
+    <script src="SCat.js"></script>
+
+</body>
+
+</html>

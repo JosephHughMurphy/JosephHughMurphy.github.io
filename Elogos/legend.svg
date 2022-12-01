@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176.87 21.6">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .25px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-6 {
+        fill: #1d1d1b;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 6px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #f49633;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #71af2d;
+      }
+
+      .cls-5 {
+        fill: #29a5d8;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x=".5" y=".5" width="175.87" height="20.6"/>
+  <text class="cls-6" transform="translate(3.08 6.95)"><tspan class="cls-11" x="0" y="0">M</tspan><tspan x="4.86" y="0">ap legend</tspan></text>
+  <text class="cls-1" transform="translate(3.08 6.95)"><tspan class="cls-11" x="0" y="0">M</tspan><tspan x="4.86" y="0">ap legend</tspan></text>
+  <text class="cls-6" transform="translate(15.09 15.18)"><tspan class="cls-7" x="0" y="0">T</tspan><tspan class="cls-14" x="2.71" y="0">r</tspan><tspan x="4.64" y="0">aining</tspan></text>
+  <rect class="cls-5" x="3.42" y="11.13" width="10.52" height="4.05"/>
+  <rect class="cls-4" x="101.05" y="11.19" width="10.52" height="4.05"/>
+  <rect class="cls-3" x="41.13" y="11.19" width="10.52" height="4.05"/>
+  <text class="cls-6" transform="translate(55.81 15.18)"><tspan x="0" y="0">Summer schools</tspan></text>
+  <text class="cls-6" transform="translate(114.41 15.18)"><tspan class="cls-13" x="0" y="0">C</tspan><tspan x="3.41" y="0">on</tspan><tspan class="cls-12" x="10.04" y="0">f</tspan><tspan x="11.71" y="0">e</tspan><tspan class="cls-8" x="14.72" y="0">r</tspan><tspan x="16.62" y="0">en</tspan><tspan class="cls-10" x="22.96" y="0">c</tspan><tspan class="cls-9" x="25.61" y="0">es and papers</tspan></text>
+</svg>

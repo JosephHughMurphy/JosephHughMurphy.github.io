@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>EngD_Map</title> 
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_53e5868a6ac7c91db2d8e6a44284dac4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_53e5868a6ac7c91db2d8e6a44284dac4" ></div>
+        
+</body>
+<script>    
+    
+            var map_53e5868a6ac7c91db2d8e6a44284dac4 = L.map(
+                "map_53e5868a6ac7c91db2d8e6a44284dac4",
+                {
+                    center: [55.0, -1.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: [],
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f81fbf47ce0deaa1730b4bea34ed4b8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 15, "maxZoom": 15, "minZoom": 1.5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_53e5868a6ac7c91db2d8e6a44284dac4);
+        
+    
+            var marker_cluster_58b02a877527d98799a88e0128484398 = L.markerClusterGroup(
+                {}
+            );
+            map_53e5868a6ac7c91db2d8e6a44284dac4.addLayer(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var marker_7cf8732b14fc6b15e2107b07e68cb81b = L.marker(
+                [52.4796992, -1.9026911],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_f3278ccba9911101b2d8b63888b714c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7cf8732b14fc6b15e2107b07e68cb81b.setIcon(icon_f3278ccba9911101b2d8b63888b714c5);
+        
+    
+        var popup_55d9761589d612af1df691c3cd7a316f = L.popup({"maxWidth": 350});
+
+        
+            var html_cb50d7a44e34da317098efc63715cc9c = $(`<div id="html_cb50d7a44e34da317098efc63715cc9c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" JSHSR.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">UK-Japan Symposium on Highspeed Rail </h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">symposium</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Bimringham University </td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Railways, structure, history, Safety and stability of japanise high speed railway networks, </td> </tr> </tbody> </table> <center><a href="nan">Event website</a></center> </html> </div>`)[0];
+            popup_55d9761589d612af1df691c3cd7a316f.setContent(html_cb50d7a44e34da317098efc63715cc9c);
+        
+
+        marker_7cf8732b14fc6b15e2107b07e68cb81b.bindPopup(popup_55d9761589d612af1df691c3cd7a316f)
+        ;
+
+        
+    
+    
+            marker_7cf8732b14fc6b15e2107b07e68cb81b.bindTooltip(
+                `<div>
+                     UK-Japan Symposium on Highspeed Rail 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f70258adfdc5e037724bc919aa31f86 = L.marker(
+                [42.359254, -71.093242],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_45cfb27265847d2de01f9c863b943c4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0f70258adfdc5e037724bc919aa31f86.setIcon(icon_45cfb27265847d2de01f9c863b943c4e);
+        
+    
+        var popup_4259d699419f9a8b6db74982a5566ad1 = L.popup({"maxWidth": 350});
+
+        
+            var html_2ea30a10077387f01931475b0db4b83d = $(`<div id="html_2ea30a10077387f01931475b0db4b83d" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" MIT.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">Model-Based Systems Engineering: Documentation and Analysis</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Online training</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Massachusetts Institute of Technology</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">MBSE, SE, Practical application</td> </tr> </tbody> </table> <center><a href="https://xpro.mit.edu/courses/course-v1:xPRO+SysEngx3/">Event website</a></center> </html> </div>`)[0];
+            popup_4259d699419f9a8b6db74982a5566ad1.setContent(html_2ea30a10077387f01931475b0db4b83d);
+        
+
+        marker_0f70258adfdc5e037724bc919aa31f86.bindPopup(popup_4259d699419f9a8b6db74982a5566ad1)
+        ;
+
+        
+    
+    
+            marker_0f70258adfdc5e037724bc919aa31f86.bindTooltip(
+                `<div>
+                     Model-Based Systems Engineering: Documentation and Analysis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfb37f39b08be7a585ee3df92098b850 = L.marker(
+                [35.5120831, 24.0191544],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_59c4a96b0c1fd18a2130b9f28c9d9ca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cfb37f39b08be7a585ee3df92098b850.setIcon(icon_59c4a96b0c1fd18a2130b9f28c9d9ca2);
+        
+    
+        var popup_152182879d42234b28f3e16fbf5b41d7 = L.popup({"maxWidth": 350});
+
+        
+            var html_3bb43873234cc088e1773dde906e1924 = $(`<div id="html_3bb43873234cc088e1773dde906e1924" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" EC3_2019_Conf.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">EC3 - Computing in construction conference</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference structures, presentation expectations</td> </tr> </tbody> </table> <center><a href="https://ec-3.org/conf2019/">Event website</a></center> </html> </div>`)[0];
+            popup_152182879d42234b28f3e16fbf5b41d7.setContent(html_3bb43873234cc088e1773dde906e1924);
+        
+
+        marker_cfb37f39b08be7a585ee3df92098b850.bindPopup(popup_152182879d42234b28f3e16fbf5b41d7)
+        ;
+
+        
+    
+    
+            marker_cfb37f39b08be7a585ee3df92098b850.bindTooltip(
+                `<div>
+                     EC3 - Computing in construction conference
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_335deedf20dbcb4702a84a720eff6656 = L.marker(
+                [43.7149517, 13.2179488],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_d6f77a9e425cc33e0bdf6710f38fff6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_335deedf20dbcb4702a84a720eff6656.setIcon(icon_d6f77a9e425cc33e0bdf6710f38fff6d);
+        
+    
+        var popup_6452ddfcd96f6fcade23913c2d788a8c = L.popup({"maxWidth": 350});
+
+        
+            var html_3d86790444cad7e789b725fd00f3c28e = $(`<div id="html_3d86790444cad7e789b725fd00f3c28e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" EC3_2019_Conf.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">EC3 - Computing in construction Summer school</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Summer School</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">BIM, Computer science, computer vision, Deep learning, Robotics, Blockchain</td> </tr> </tbody> </table> <center><a href="https://ec-3.org/school2019/">Event website</a></center> </html> </div>`)[0];
+            popup_6452ddfcd96f6fcade23913c2d788a8c.setContent(html_3d86790444cad7e789b725fd00f3c28e);
+        
+
+        marker_335deedf20dbcb4702a84a720eff6656.bindPopup(popup_6452ddfcd96f6fcade23913c2d788a8c)
+        ;
+
+        
+    
+    
+            marker_335deedf20dbcb4702a84a720eff6656.bindTooltip(
+                `<div>
+                     EC3 - Computing in construction Summer school
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_502903c3bf2432f99d7620f60f48bdbc = L.marker(
+                [51.5256866, -0.1355703],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_5b761cb76c3c6cdc6f1463e4c50e0606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_502903c3bf2432f99d7620f60f48bdbc.setIcon(icon_5b761cb76c3c6cdc6f1463e4c50e0606);
+        
+    
+        var popup_f0b21684a74651508b7fc4d70c219af7 = L.popup({"maxWidth": 350});
+
+        
+            var html_197b0d5a4a9cc57b0489e9f0e5a0c3d5 = $(`<div id="html_197b0d5a4a9cc57b0489e9f0e5a0c3d5" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" SSASM.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">Summer School in Advanced Spatial Modelling</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Summer School</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">UCL</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Graph theory, Spatial modelling</td> </tr> </tbody> </table> <center><a href="https://github.com/ss-asm/SS-ASM19-Materials">Event website</a></center> </html> </div>`)[0];
+            popup_f0b21684a74651508b7fc4d70c219af7.setContent(html_197b0d5a4a9cc57b0489e9f0e5a0c3d5);
+        
+
+        marker_502903c3bf2432f99d7620f60f48bdbc.bindPopup(popup_f0b21684a74651508b7fc4d70c219af7)
+        ;
+
+        
+    
+    
+            marker_502903c3bf2432f99d7620f60f48bdbc.bindTooltip(
+                `<div>
+                     Summer School in Advanced Spatial Modelling
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_836104a693f3e742754b9cb9a5ec28be = L.marker(
+                [51.44795745, -0.1984689675109691],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_735fd399fe76023f7fd95e15ded2cb17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_836104a693f3e742754b9cb9a5ec28be.setIcon(icon_735fd399fe76023f7fd95e15ded2cb17);
+        
+    
+        var popup_8cd2051e8ff46c976ea28c7dfa9afff9 = L.popup({"maxWidth": 350});
+
+        
+            var html_2ec424c3200995b50d387a8d3ba067d0 = $(`<div id="html_2ec424c3200995b50d387a8d3ba067d0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" DTAL.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">Design Thinking fundamentals and Facilitation</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Training </td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Design Thinkers academy</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Design Thinking, User feedback and design, Workshop Facilitation, Ethnography</td> </tr> </tbody> </table> <center><a href="https://www.designthinkersacademy.co.uk/courses/design-thinking-facilitation/">Event website</a></center> </html> </div>`)[0];
+            popup_8cd2051e8ff46c976ea28c7dfa9afff9.setContent(html_2ec424c3200995b50d387a8d3ba067d0);
+        
+
+        marker_836104a693f3e742754b9cb9a5ec28be.bindPopup(popup_8cd2051e8ff46c976ea28c7dfa9afff9)
+        ;
+
+        
+    
+    
+            marker_836104a693f3e742754b9cb9a5ec28be.bindTooltip(
+                `<div>
+                     Design Thinking fundamentals and Facilitation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58f96f62f00ad0808b221b88d645cba3 = L.marker(
+                [51.6553875, -0.3957425],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_4766d71437d6a2ffe9c94c364225288f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58f96f62f00ad0808b221b88d645cba3.setIcon(icon_4766d71437d6a2ffe9c94c364225288f);
+        
+    
+        var popup_4b67a21775994c4929830fbb9b959d22 = L.popup({"maxWidth": 350});
+
+        
+            var html_4b241785376aa38896190394594a944c = $(`<div id="html_4b241785376aa38896190394594a944c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" BRE.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">BRE - BIM fundamentals </h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Online training</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">BIM, processes</td> </tr> </tbody> </table> <center><a href="https://www.bre.ac/bim/">Event website</a></center> </html> </div>`)[0];
+            popup_4b67a21775994c4929830fbb9b959d22.setContent(html_4b241785376aa38896190394594a944c);
+        
+
+        marker_58f96f62f00ad0808b221b88d645cba3.bindPopup(popup_4b67a21775994c4929830fbb9b959d22)
+        ;
+
+        
+    
+    
+            marker_58f96f62f00ad0808b221b88d645cba3.bindTooltip(
+                `<div>
+                     BRE - BIM fundamentals 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3faac61c3f71a6e5e13cff871d1c06fe = L.marker(
+                [53.7974185, -1.5437941],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_dd69fd1f6e71332fe21742696a6ff5bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3faac61c3f71a6e5e13cff871d1c06fe.setIcon(icon_dd69fd1f6e71332fe21742696a6ff5bf);
+        
+    
+        var popup_339812c1898a74ba4a5f88ed098185ff = L.popup({"maxWidth": 350});
+
+        
+            var html_62ec28aaa91512f3038417b51db968e0 = $(`<div id="html_62ec28aaa91512f3038417b51db968e0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" ARCOM.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">ARCOM</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference structures, presentation expectations</td> </tr> </tbody> </table> <center><a href="https://arcom.ac.uk/abstracts-results.php?s=36th%20Annual%20ARCOM%20Conference&b=b">Event website</a></center> </html> </div>`)[0];
+            popup_339812c1898a74ba4a5f88ed098185ff.setContent(html_62ec28aaa91512f3038417b51db968e0);
+        
+
+        marker_3faac61c3f71a6e5e13cff871d1c06fe.bindPopup(popup_339812c1898a74ba4a5f88ed098185ff)
+        ;
+
+        
+    
+    
+            marker_3faac61c3f71a6e5e13cff871d1c06fe.bindTooltip(
+                `<div>
+                     ARCOM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bb0cc6c77f42fe575dee127b3a31b8f = L.marker(
+                [63.4195043, 10.4019248],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_86d70a80b29da5305dda46405d1b06f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-bullseye", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1bb0cc6c77f42fe575dee127b3a31b8f.setIcon(icon_86d70a80b29da5305dda46405d1b06f6);
+        
+    
+        var popup_97b4d154c7690f52e57b6d11e22e9d4e = L.popup({"maxWidth": 350});
+
+        
+            var html_66d1a6eae3683bea092e0d156fb9e2ca = $(`<div id="html_66d1a6eae3683bea092e0d156fb9e2ca" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" CSER2022.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">2022 Conference on Systems Engineering Research (CSER) </h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Complexity preselection paper</td> </tr> </tbody> </table> <center><a href="https://onlinelibrary.wiley.com/doi/10.1002/iis2.12892">Event website</a></center> </html> </div>`)[0];
+            popup_97b4d154c7690f52e57b6d11e22e9d4e.setContent(html_66d1a6eae3683bea092e0d156fb9e2ca);
+        
+
+        marker_1bb0cc6c77f42fe575dee127b3a31b8f.bindPopup(popup_97b4d154c7690f52e57b6d11e22e9d4e)
+        ;
+
+        
+    
+    
+            marker_1bb0cc6c77f42fe575dee127b3a31b8f.bindTooltip(
+                `<div>
+                     2022 Conference on Systems Engineering Research (CSER) 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d922a8e8661204f762bfbfb992a3d0a = L.marker(
+                [32.7771706, 35.0302789],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_f37ee41201ed4361f721bae3b91d28b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8d922a8e8661204f762bfbfb992a3d0a.setIcon(icon_f37ee41201ed4361f721bae3b91d28b4);
+        
+    
+        var popup_d130d8f056f39cfb01116694288435c2 = L.popup({"maxWidth": 350});
+
+        
+            var html_54f7d4d210097da6bb4955fefd5ccd1f = $(`<div id="html_54f7d4d210097da6bb4955fefd5ccd1f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" CBIMSS.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">2022 CBIM PhD School on Advanced BIM Applications and Digital Twin Technology</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Winter school</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Technion</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">BIM, Computer science, Cloud BIM, computer vision, Maachine Learning, Artificial Intelligence, Digital Twin Construction</td> </tr> </tbody> </table> <center><a href="https://cbim-te4.net.technion.ac.il/">Event website</a></center> </html> </div>`)[0];
+            popup_d130d8f056f39cfb01116694288435c2.setContent(html_54f7d4d210097da6bb4955fefd5ccd1f);
+        
+
+        marker_8d922a8e8661204f762bfbfb992a3d0a.bindPopup(popup_d130d8f056f39cfb01116694288435c2)
+        ;
+
+        
+    
+    
+            marker_8d922a8e8661204f762bfbfb992a3d0a.bindTooltip(
+                `<div>
+                     2022 CBIM PhD School on Advanced BIM Applications and Digital Twin Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29c0427a91080662d439eab301c0ab94 = L.marker(
+                [40.7619018, -4.0705677],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_050b447d8236d57f80df2948e81efd67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_29c0427a91080662d439eab301c0ab94.setIcon(icon_050b447d8236d57f80df2948e81efd67);
+        
+    
+        var popup_ca1b480d084b4aeef09daa622d14ade3 = L.popup({"maxWidth": 350});
+
+        
+            var html_5f9b8ee1dd2ee708ba34d3c918e5eaca = $(`<div id="html_5f9b8ee1dd2ee708ba34d3c918e5eaca" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" ldac.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">2022 2nd Summer School of Linked Data in Architecture and Construction (LDAC)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Summer school</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Linked data, Ontologies</td> </tr> </tbody> </table> <center><a href="https://linkedbuildingdata.net/ldac2022/summerschool/">Event website</a></center> </html> </div>`)[0];
+            popup_ca1b480d084b4aeef09daa622d14ade3.setContent(html_5f9b8ee1dd2ee708ba34d3c918e5eaca);
+        
+
+        marker_29c0427a91080662d439eab301c0ab94.bindPopup(popup_ca1b480d084b4aeef09daa622d14ade3)
+        ;
+
+        
+    
+    
+            marker_29c0427a91080662d439eab301c0ab94.bindTooltip(
+                `<div>
+                     2022 2nd Summer School of Linked Data in Architecture and Construction (LDAC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b88e7bcc2b1f6e7c07e3cf642a286a6 = L.marker(
+                [48.2049259, 16.3776554],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_e936067a9f7afff8cf277d8d3b501d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-bullseye", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b88e7bcc2b1f6e7c07e3cf642a286a6.setIcon(icon_e936067a9f7afff8cf277d8d3b501d43);
+        
+    
+        var popup_6cc240f0e235f04573271d9f1f2e688d = L.popup({"maxWidth": 350});
+
+        
+            var html_f18e7823ba361a88941ebee293d7e32c = $(`<div id="html_f18e7823ba361a88941ebee293d7e32c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" ISSE.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">2022 IEEE ISSE</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Conference</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">nan</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Framework Paper</td> </tr> </tbody> </table> <center><a href="https://2022.ieeeisse.org/">Event website</a></center> </html> </div>`)[0];
+            popup_6cc240f0e235f04573271d9f1f2e688d.setContent(html_f18e7823ba361a88941ebee293d7e32c);
+        
+
+        marker_1b88e7bcc2b1f6e7c07e3cf642a286a6.bindPopup(popup_6cc240f0e235f04573271d9f1f2e688d)
+        ;
+
+        
+    
+    
+            marker_1b88e7bcc2b1f6e7c07e3cf642a286a6.bindTooltip(
+                `<div>
+                     2022 IEEE ISSE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9906018d5dedd16b9e5d5de6229b4398 = L.marker(
+                [42.3733634, -71.1189464],
+                {}
+            ).addTo(marker_cluster_58b02a877527d98799a88e0128484398);
+        
+    
+            var icon_3bc7bf661f56f0226dbacdf08d38df0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thin fa-graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9906018d5dedd16b9e5d5de6229b4398.setIcon(icon_3bc7bf661f56f0226dbacdf08d38df0b);
+        
+    
+        var popup_bc8fe9cd481f007c7e7499eef36ec7dc = L.popup({"maxWidth": 350});
+
+        
+            var html_e3a97f03cbe7fdf08c73477cb4156409 = $(`<div id="html_e3a97f03cbe7fdf08c73477cb4156409" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <center><img src=" CS50_Harvard.png" alt="logo" width=100 height=50 ></center> <head> <h4 style="margin-bottom:10"; width="200px">CS50 - Introduction to computer science</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">MOOC</td> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Activity type</span></td> <td style="width: 150px;background-color: #f2f0d3;">Harvard</td> <td style=> </tr> <tr> <td style="background-color: #6495ED;"><span style="color: #ffffff;">Training topics</span></td> <td style="width: 150px;background-color: #f2f0d3;">Computer science, C#, Python</td> </tr> </tbody> </table> <center><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Event website</a></center> </html> </div>`)[0];
+            popup_bc8fe9cd481f007c7e7499eef36ec7dc.setContent(html_e3a97f03cbe7fdf08c73477cb4156409);
+        
+
+        marker_9906018d5dedd16b9e5d5de6229b4398.bindPopup(popup_bc8fe9cd481f007c7e7499eef36ec7dc)
+        ;
+
+        
+    
+    
+            marker_9906018d5dedd16b9e5d5de6229b4398.bindTooltip(
+                `<div>
+                     CS50 - Introduction to computer science
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_2874f8ff0a5d2987db2679e50c02d68e = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_53e5868a6ac7c91db2d8e6a44284dac4);
+        
+    
+            var layer_control_bf0d2fb14f80f01345aade5869f62d9d = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7f81fbf47ce0deaa1730b4bea34ed4b8,
+                    "cartodbpositron" : tile_layer_2874f8ff0a5d2987db2679e50c02d68e,
+                },
+                overlays :  {
+                    "macro_element_58b02a877527d98799a88e0128484398" : marker_cluster_58b02a877527d98799a88e0128484398,
+                },
+            };
+            L.control.layers(
+                layer_control_bf0d2fb14f80f01345aade5869f62d9d.base_layers,
+                layer_control_bf0d2fb14f80f01345aade5869f62d9d.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_53e5868a6ac7c91db2d8e6a44284dac4);
+            tile_layer_2874f8ff0a5d2987db2679e50c02d68e.remove();
+        
+</script>

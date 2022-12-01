@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 115.61 109.742" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.164348, 0, 0, 0.180084, 27.725941, -29.07295)" style="">
+    <circle class="cls-1" cx="189.445" cy="191.441" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="129.465" y1="238.881" x2="148.735" y2="232.211" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="152.875" y1="234.001" x2="162.125" y2="240.101" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="162.885" y1="228.901" x2="164.585" y2="237.641" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="164.655" y1="225.461" x2="193.095" y2="217.621" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="193.975" y1="214.561" x2="177.865" y2="199.171" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="174.915" y1="199.271" x2="163.085" y2="223.971" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="178.415" y1="195.951" x2="186.985" y2="192.181" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="189.445" y1="188.981" x2="187.605" y2="170.981" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="198.295" y1="216.961" x2="208.795" y2="218.911" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="165.545" y1="242.371" x2="168.425" y2="254.261" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <line class="cls-1" x1="153.305" y1="230.941" x2="159.935" y2="226.431" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <path class="cls-2" d="M 187.015 170.461 C 195.895 171.171 201.565 177.101 203.185 178.811 C 210.435 186.401 211.205 195.731 211.535 199.681 C 212.615 212.741 206.935 222.551 203.705 228.111 C 200.985 232.801 195.445 242.101 184.005 248.721 C 179.745 251.181 168.335 257.571 153.875 255.111 C 149.835 254.421 139.915 252.741 132.875 244.151 C 132.305 243.461 123.605 232.561 126.745 221.851 C 127.415 219.581 128.505 217.661 129.095 216.631 C 132.415 210.821 136.785 207.681 138.745 206.201 C 146.495 200.341 152.355 192.331 159.225 185.461 C 165.825 178.861 169.215 175.521 173.575 173.461 C 176.505 172.071 181.065 169.981 187.005 170.461 L 187.015 170.461 Z" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10; stroke-width: 2px;"/>
+    <circle class="cls-1" cx="176.275" cy="197.301" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <circle class="cls-1" cx="195.555" cy="216.441" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <circle class="cls-1" cx="151.195" cy="232.211" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <circle class="cls-1" cx="164.585" cy="240.101" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+    <circle class="cls-1" cx="162.405" cy="226.431" r="2.46" style="fill: none; stroke: rgb(29, 29, 27); stroke-miterlimit: 10;"/>
+  </g>
+</svg>
