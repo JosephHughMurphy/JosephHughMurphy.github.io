@@ -89,7 +89,10 @@ main {
 }
 
 .amct {
+    justify-content: center;
     text-align: center;
+    width: 300px;
+    
 }
 
 
@@ -228,7 +231,7 @@ img {
 .title {
     margin: auto;
     padding-bottom: 10px;
-
+    
 }
 
 .scroll {
