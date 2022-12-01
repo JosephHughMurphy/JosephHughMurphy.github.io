@@ -221,6 +221,7 @@ img {
 .scroll-container {
     width: 5%;
     margin: auto;
+    height: 150px;
 }
 
 .title {
