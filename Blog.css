@@ -257,10 +257,12 @@ a {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: #EAECEE;
-    background: grey;
+    /* color: #EAECEE; */
+    /* background: grey; */
     border-radius: 50%;
 }
+
+
 
 .fa-brands {
     padding: 12.5px;
@@ -268,76 +270,27 @@ a {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: #EAECEE;
-    background:grey;
+    /* color: #EAECEE; */
+    /* background:grey; */
     border-radius: 50%;
 }
-
-.lboro_icon {
-    padding: 8px;
-    font-size: 25px;
-    width: 50px;
-    height:50px;
-    text-align: center;
-    text-decoration: none;
-    color: #EAECEE;
-    background:grey;
-    border-radius: 50%;
-    margin-bottom: 10px;  
-}
-
 
 /* Hover for fa elements FA */
-.fa:hover {
+/* .fa:hover {
     opacity: 0.5;
     color: white;
     transition: 850ms;
-}
-
-.fa:hover {
-    opacity: 0.5;
-    color: white;
-    transition: 850ms;
-}
+} */
 
 .fa-brands:hover {
-    opacity: 0.9;
+    opacity: 0.5;
     color: white;
     transition: 850ms;
 }
+
 .fa-linkedin:hover { 
-    opacity: 0.9;
-    background: #069;
-    transition: 850ms;
-}
-
-.fa-github:hover { 
-    opacity: 0.9;
-    background: black;
-    transition: 850ms;
-}
-
-.fa-researchgate:hover { 
-    opacity: 0.9;
-    background: #00CCBB;
-    transition: 850ms;
-}
-
-.fa-envelope:hover { 
-    opacity: 0.9;
-    background: darkgreen;
-    transition: 850ms;
-}
-
-.fa-instagram:hover { 
-    opacity: 0.9;
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-    transition: 850ms;
-}
-
-.lboro_icon:hover { 
-    opacity: 0.9;
-    background: rgb(52, 15, 99);
+    opacity: 0.5;
+    color: #069;
     transition: 850ms;
 }
 
