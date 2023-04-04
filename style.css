@@ -300,11 +300,11 @@ a {
     transition: 850ms;
 }
 
-.fa-brands:hover {
+/* .fa-brands:hover {
     opacity: 0.9;
     color: white;
     transition: 850ms;
-}
+} */
 .fa-linkedin:hover { 
     opacity: 0.9;
     background: #069;
